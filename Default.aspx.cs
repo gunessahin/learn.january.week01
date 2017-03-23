@@ -42,8 +42,11 @@ namespace learn.january.week01
             // Procress Control
             if (firstIsNumeric && secondIsNumeric && !isBig)
             {
-                // Total Proc
-                total = Sum(firstNumeric, secondNumeric);
+                // Total Two Number Sum Proc
+                // total = Sum(firstNumeric, secondNumeric);
+
+                // Total Two Number Sum Range Proc
+                total = SumRange(firstNumeric, secondNumeric);
             }
 
             // Message Write
@@ -105,7 +108,35 @@ namespace learn.january.week01
             int result = 0;
 
             // Proc
-            result = first + second;
+            result = first + second; 
+
+            // Message Format
+            message += string.Format("Toplam: {0}\n", result);
+
+            // Return
+            return result;
+        }
+
+        /// <summary>
+        /// Sum Range Proc
+        /// </summary>
+        /// <param name="first"></param>
+        /// <param name="second"></param>
+        /// <returns></returns>
+        private int SumRange(int first, int second)
+        {
+            // Define
+            int result = 0;
+
+            // Proc
+            result = first;
+            int x = first;
+            do
+            {
+                x++;
+                result += x;
+
+            } while (x < second);
 
             // Message Format
             message += string.Format("Toplam: {0}\n", result);
