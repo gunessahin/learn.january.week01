@@ -1,4 +1,14 @@
-﻿namespace learn.january.week01 {    
+﻿//------------------------------------------------------------------------------
+// <otomatik üretildi>
+//     Bu kod bir araç tarafından oluşturuldu.
+//
+//     Bu dosyada yapılacak değişiklikler yanlış davranışa neden olabilir ve
+//     kod tekrar üretildi. 
+// </otomatik üretildi>
+//------------------------------------------------------------------------------
+
+namespace learn.january.week01 {
+    
     
     public partial class Default {
         
@@ -21,6 +31,15 @@
         protected global::System.Web.UI.WebControls.TextBox txtFirst;
         
         /// <summary>
+        /// lblFirst denetimi.
+        /// </summary>
+        /// <remarks>
+        /// Otomatik üretilmiş alan.
+        /// Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblFirst;
+        
+        /// <summary>
         /// txtSecond denetimi.
         /// </summary>
         /// <remarks>
@@ -28,6 +47,15 @@
         /// Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtSecond;
+        
+        /// <summary>
+        /// lblecond denetimi.
+        /// </summary>
+        /// <remarks>
+        /// Otomatik üretilmiş alan.
+        /// Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblecond;
         
         /// <summary>
         /// btnSum denetimi.

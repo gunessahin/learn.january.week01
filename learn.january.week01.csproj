@@ -48,6 +48,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="bin\learn.january.week01.dll" />
     <Content Include="Default.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>

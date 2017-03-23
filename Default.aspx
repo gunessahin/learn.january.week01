@@ -17,11 +17,13 @@
     <!-- Form-->
     <form id="form1" runat="server">
         <div>
-            <!-- First Text-->
+            <!-- First Text-->            
             <asp:TextBox ID="txtFirst" runat="server" TextMode="SingleLine"></asp:TextBox>
+            <asp:Label ID="lblFirst" runat="server" ForeColor="#0066FF">İlk Sayı</asp:Label>
             <br />
-            <!-- Second Text-->
+            <!-- Second Text-->            
             <asp:TextBox ID="txtSecond" runat="server" TextMode="SingleLine"></asp:TextBox>
+            <asp:Label ID="lblecond" runat="server" ForeColor="#0066FF">İkinci Sayı</asp:Label>
             <br />
             <!-- Proc Strat-->
             <asp:Button ID="btnSum" runat="server" Text="Topla" OnClick="btnSum_Click" />
